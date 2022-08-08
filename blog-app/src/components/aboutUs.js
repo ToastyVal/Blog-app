@@ -30,7 +30,7 @@ function about() {
             </li>
             <li>
                 <h3>
-                    Hunter
+                    Hunter i am the best
                 </h3>
             </li>
         </ul>
