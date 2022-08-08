@@ -15,7 +15,7 @@ function about() {
             </li>
             <li>
                 <h3>
-                    Jude
+                    Jude is a kid, just found out what a full stack dev is and no its not pancakes
                 </h3>
             </li>
             <li>
