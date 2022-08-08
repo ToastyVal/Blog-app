@@ -1,8 +1,10 @@
 import React from "react";
-import conPol from "./contentPolicy";
+// import ReactDom from "react-dom"
+import contentPolicy from "./contentPolicy";
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 // the footer function
 const Footer = () => (
-    <>
+    <BrowserRouter>
         {/* fake contact info */}
         <h2>Goat Ropers</h2>
         <ul>
@@ -17,8 +19,9 @@ const Footer = () => (
             <li><a href="https://policies.google.com/terms?hl=en-US">Terms of Service</a></li>
             <li><a href="https://policies.google.com/privacy?hl=en-US">Privacy</a></li>
             {/* made a content policy componenet, needs to go to the content policy component */}
-            <li><a>Content Policy</a></li>
+            <li><Link to="/contentpolicy">Content Policy</Link></li>
         </ul>
-    </>
+        <Route exact path="/contentpolicy" component={contentPolicy} />
+    </BrowserRouter>
 )
 export default Footer;
