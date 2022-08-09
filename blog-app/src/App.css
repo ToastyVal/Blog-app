@@ -115,3 +115,10 @@ li {
   font-family: 'Oleo Script Swash Caps', cursive;
   font-size: 1.4em;
 }
+#loginForm a:hover{
+color: greenyellow;
+}
+.LandingH1{
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 2.4em;
+}
