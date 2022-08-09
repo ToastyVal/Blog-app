@@ -1,21 +1,7 @@
 import React from "react";
-//use npm add use-sound in the terminal
-// import useSound from 'use-useSound';
-//import sounds from assets
-import yeehaw from '../assets/yeehaw.wav'
-import nope from '../assets/nope.ogg'
+import LikeButton from './likeButton'
 
-//function to call yeehaw sound
-const YeeHaw = () => {
-    new Audio(yeehaw).play()
-}
-//function to call nope sound
-const Nope = () => {
-    new Audio(nope).play()
-}
 
-const disLikeCount = 0
-const likeCount = 0
 
 const BlogPost = () => (
     <>
@@ -36,10 +22,11 @@ const BlogPost = () => (
             Sit animi aspernatur quisquam, tenetur non magni nesciunt sed accusamus dolore neque quas repellendus doloribus
             placeat optio adipisci ad itaque eveniet, reiciendis explicabo aperiam accusantium. Distinctio tempora natus
             unde maxime!</p>
-        <div>
+            <LikeButton/>
+        {/* <div>
             <button onClick={Nope}>What in tarnation!&#x1f44e; {disLikeCount}</button>
             <button onClick={YeeHaw}>Purdy! &#128077; {likeCount}</button>
-        </div>
+        </div> */}
     </>
 )
 
