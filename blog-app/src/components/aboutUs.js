@@ -4,7 +4,7 @@ import './aboutUsStyles.css';
 
 function AboutUs() {
     return(
-        <>
+        <div className="about">
         <h1>This is Team HufflePuff, we are the greatest house at hogwarts</h1>
         <h1>We are also ok at valorant</h1>
         <br />
@@ -36,7 +36,7 @@ function AboutUs() {
                 </h3>
             </li>
         </ul>
-        </>
+        </div>
     )
 }
 export default AboutUs;
