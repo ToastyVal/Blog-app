@@ -1,4 +1,6 @@
 import React from "react";
+import './footerStyles.css';
+
 
 // the footer function
 const Footer = () => (
@@ -17,7 +19,9 @@ const Footer = () => (
             <li><a href="https://policies.google.com/terms?hl=en-US">Terms of Service</a></li>
             <li><a href="https://policies.google.com/privacy?hl=en-US">Privacy</a></li>
             {/* made a content policy componenet, needs to go to the content policy component */}
-            <li>Content Policy</li>
+            {/* <li>
+                <a href='../routes/ContentPolicy' >Content Policy</a>
+            </li> */}
         </ul>
     </>
 )

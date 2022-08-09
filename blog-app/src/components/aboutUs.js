@@ -1,6 +1,8 @@
 import React from "react";
 
-function about() {
+import './aboutUsStyles.css';
+
+function AboutUs() {
     return(
         <>
         <h1>This is Team HufflePuff, we are the greatest house at hogwarts</h1>
@@ -37,4 +39,4 @@ function about() {
         </>
     )
 }
-export default about;
+export default AboutUs;

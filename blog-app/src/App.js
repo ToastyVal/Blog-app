@@ -1,23 +1,22 @@
-import Footer from './components/footer';
-import BlogPost from './components/blogPost';
-import NavBar from './components/navBar';
-import Comments from './components/comments';
+
+import React from 'react';
+import Blog from './routes/Blog';
+import About from './routes/AboutUs';
+import Content from './routes/ContentPolicy'
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
-// import './styles.css'
+
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <article>
-        <BlogPost />
-      </article>
-      <Comments />
-      {/* this is the footer that should be on every page */}
-      <footer>
-        <Footer />
-      </footer>
-    </div>
+    <>
+      <Routes>
+        <Route path='/' element={<Blog />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contenPolicy' elemment={<Content />} />
+      </Routes>
+    </>
+
   );
 }
 

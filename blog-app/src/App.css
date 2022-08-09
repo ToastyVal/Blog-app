@@ -1,6 +1,8 @@
 /* added a fancy font */
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap');
 
+
+
 .App {
   text-align: center;
 }
@@ -41,26 +43,7 @@
   }
 }
 
-footer {
-  background-color: #e59ded;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  /* these not working yet */
-  /* position: fixed; */
-  /* bottom: 0px; */
-  /* width: 90%; */
-}
 
-footer h2 {
-  font-family: 'Oleo Script Swash Caps', cursive;
-  font-size: 1.5em;
-  padding-top: 0.8em;
-  text-decoration: underline;
-  text-shadow: 2px 2px #F4C5BB;
-
-}
 
 body {
   background-color: antiquewhite;
@@ -85,12 +68,7 @@ article div {
   left: 90%;
 }
 
-header h1 {
-  background-color: chocolate;
-  font-family: 'Oleo Script Swash Caps', cursive;
-  font-size: 3em;
-  padding: 1%;
-}
+
 
 li::before {
   content: '\1F920';
@@ -122,3 +100,4 @@ color: greenyellow;
   font-family: 'Oleo Script Swash Caps', cursive;
   font-size: 2.4em;
 }
+
