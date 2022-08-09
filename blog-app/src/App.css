@@ -1,3 +1,8 @@
+/* added a fancy font */
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+
+
+
 .App {
   text-align: center;
 }
@@ -32,7 +37,67 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+
+
+body {
+  background-color: antiquewhite;
+  /* top right bottom left */
+  margin: 16px 20px 16px 20px;
+  /* this makes a cactus cursor */
+  cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAaCAMAAABigZc2AAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAFpJREFUeNp9jUEOwEAIAhn+/+imjbs1bC0XzQioSUAAYZs0mcVY051RbGXfFsyxibTVHXhuhXYlbuRGPbe7kz3g0wf679OuizDBdCaberLE4AsjGliD02eNugA+MQFAPqynHQAAAABJRU5ErkJggg==), auto;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+}
+
+article div {
+  width: 6%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  left: 90%;
+}
+
+
+
+li::before {
+  content: '\1F920';
+  list-style-type: none;
+  margin-left: -20px;
+  margin-right: 10px;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+#commentText {
+  width: 40%;
+  height: 100px;
+  border-radius: 15px 50px;
+  border: dashed 3px #61dafb;
+}
+
+#commentForm label {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 1.4em;
+}
+#loginForm a:hover{
+color: greenyellow;
+}
+.LandingH1{
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 2.4em;
+}
+
