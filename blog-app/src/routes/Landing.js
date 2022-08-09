@@ -4,12 +4,12 @@ import NavBar from "../components/navBar";
 import Footer from "../components/footer";
 
 function Landing() {
-    return (
-        <div>
-        <NavBar />
-        <LandingPage />
-        <Footer />
-        </div>
-    )
+  return (
+    <div>
+      <NavBar />
+      <LandingPage />
+      <Footer />
+    </div>
+  );
 }
 export default Landing;
