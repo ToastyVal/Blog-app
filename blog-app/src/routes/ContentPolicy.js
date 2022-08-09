@@ -7,7 +7,7 @@ function Content() {
     return (
         <div>
             <NavBar />
-            <h1>We post whatever we want, don't like it? Then don't use the site,!</h1>
+            <h1>We post whatever we want, don't like it? Then don't use the site!</h1>
             <Footer />
         </div>
     )
