@@ -1,7 +1,12 @@
 import React from "react";
-const comments =() =>(
+const Comments = () => (
     <>
-    <h2>comments</h2>
+        <form id='commentForm'>
+            <label for='commentText'>Egg On</label>
+            <br />
+            <input id="commentText" type='text' placeholder="Whacha thinking partner?"></input>
+            <button>Get-er-Done</button>
+        </form>
     </>
 )
-export default comments;
+export default Comments;

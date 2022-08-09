@@ -7,8 +7,8 @@ const Footer = () => (
         <h2>Goat Ropers&#174;</h2>
         <ul>
             <li>Contact us</li>
-            <li>Some Ranch Near You</li>
-            <li>(555) 555-5555</li>
+            <li>Some Ranch Near You!</li>
+            <li>(555) 555-5555 (hint don't call us!)</li>
             <li>totalyrealemail@gmail.com</li>
         </ul>
         <ul>

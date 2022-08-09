@@ -66,6 +66,8 @@ body {
   background-color: antiquewhite;
   /* top right bottom left */
   margin: 16px 20px 16px 20px;
+  /* this makes a cactus cursor */
+  cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAaCAMAAABigZc2AAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAFpJREFUeNp9jUEOwEAIAhn+/+imjbs1bC0XzQioSUAAYZs0mcVY051RbGXfFsyxibTVHXhuhXYlbuRGPbe7kz3g0wf679OuizDBdCaberLE4AsjGliD02eNugA+MQFAPqynHQAAAABJRU5ErkJggg==), auto;
 }
 
 article {
@@ -98,8 +100,18 @@ li::before {
 
 }
 
-
-
 li {
   list-style-type: none;
+}
+
+#commentText {
+  width: 40%;
+  height: 100px;
+  border-radius: 15px 50px;
+  border: dashed 3px #61dafb;
+}
+
+#commentForm label {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 1.4em;
 }
