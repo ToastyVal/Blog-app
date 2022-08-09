@@ -1,12 +1,16 @@
 import Footer from './components/footer';
+import BlogPost from './components/blogPost';
+import NavBar from './components/navBar';
 import './App.css';
 // import './styles.css'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
-
+      <NavBar />
+      <article>
+        <BlogPost />
+      </article>
 
       {/* this is the footer that should be on every page */}
       <footer>

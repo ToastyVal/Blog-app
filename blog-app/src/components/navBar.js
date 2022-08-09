@@ -1,7 +1,8 @@
 import React from "react";
-const navBar=() =>(
-    <>
-    <h2>Nav Bar</h2>
-    </>
+const NavBar = () => (
+    // wrapped the whole nav in a header
+    <header>
+        <h1>Goat Ropers &#174;</h1>
+    </header>
 )
-export default navBar;
+export default NavBar;
