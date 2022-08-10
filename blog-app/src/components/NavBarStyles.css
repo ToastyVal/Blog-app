@@ -1,7 +1,9 @@
+
 #navbar {
     position: fixed;
-    top: 0;
+    top: 5%;
     width: 100%;
+    font-family: 'Oleo Script Swash Caps', cursive;
 
 }
 
@@ -15,6 +17,8 @@
     z-index: 10;
     float: left;
     margin-top: 0px;
+    color: black;
+    text-shadow: 2px 2px rgba(255, 0, 0, 0.58) ;
 }
 
 .header-bg {
@@ -25,7 +29,8 @@
 
 .nav-menu {
     display: inline-flex;
-    float: right;
+    position: fixed;
+    right: 5%;
 }
 
 .nav-menu li {
@@ -36,9 +41,11 @@
 }
 
 .nav-menu a {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 500;
-    
+    color: black;
+    text-shadow: 2px 2px rgba(255, 0, 0, 0.58);
+
 }
 
 .cheese {
