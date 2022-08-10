@@ -35,6 +35,9 @@ const NavBar = () => {
         <li>
           <Link to='/about'>About Us</Link>
         </li>
+        <li>
+          <Link to="/login">Login</Link>
+        </li>
       </ul>
       <div className="cheese" onClick={handleClick}>
         {click ? (
