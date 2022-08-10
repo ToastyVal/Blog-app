@@ -1,0 +1,12 @@
+.blogTitle{
+    font-size: 3em;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    text-shadow: 2px 2px #F4C5BB;
+}
+.blogPost{
+    background-color: rgba(43, 45, 45, 0.132);
+    margin: 20px 5% 20px 5%;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-style: oblique;
+    font-size: 1.2em;
+}
