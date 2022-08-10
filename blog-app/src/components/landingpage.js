@@ -1,13 +1,13 @@
 import React from "react";
-import Footer from "./footer";
+
 import NavBar from "./navBar";
 
-const LandingPage =() =>{
-    return (
+const LandingPage = () => {
+  return (
     <>
-    <NavBar />
-    <h1 className="LandingH1">Welcome to Goat Ropers&#174;</h1>
+      <NavBar />
+      <h1 className="LandingH1">Welcome to Goat Ropers&#174;</h1>
     </>
-    )
-}
-export default LandingPage
+  );
+};
+export default LandingPage;

@@ -1,12 +1,13 @@
 import React from "react";
 import LikeButton from "./likeButton";
+import "./blogPost.css";
 
 const BlogPost = () => (
   <>
-    <h2 className="postTitle">I Reckon!</h2>
+    <h2 className="blogTitle">I Reckon!</h2>
     <br />
     {/* this was made to have blog post to work around */}
-    <p>
+    <p className="blogPost">
       {" "}
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae blanditiis
       quae, enim dicta soluta optio inventore sed ratione incidunt pariatur modi

@@ -1,10 +1,11 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import Blog from './routes/Blog';
 import About from './routes/AboutUs';
 import Content from './routes/ContentPolicy'
 import { Routes, Route } from 'react-router-dom';
 import Landing from './routes/Landing';
+import LoginPage from './routes/Login';
 
 
 
@@ -16,7 +17,7 @@ function App() {
         <Route path='/blog' element={<Blog />} />
         <Route path='/about' element={<About />} />
         <Route path='/contenPolicy' elemment={<Content />} />
-        
+        <Route path='/login' element={<LoginPage />} />
       </Routes>
     </>
 
