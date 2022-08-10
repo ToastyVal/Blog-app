@@ -24,7 +24,7 @@ const Login = () => {
       <form action="">
         <h1>Welcome back feller!</h1>
         <img
-          src="https://cdn.discordapp.com/attachments/1006272241434112030/1007019609100124270/GoatRoperslogo.png"
+          src="https://cdn.discordapp.com/attachments/994279037511925887/1007023879157452980/My_project-1.png"
           alt="sorry there"
           style={{ width: "500px" }}
         />
