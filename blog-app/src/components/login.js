@@ -3,27 +3,30 @@ import { auth } from "../firebase";
 import "./login.css";
 
 const Login = () => {
-    const emailRef = useRef(null);
-    const passwordRef = useRef(null);
-    const register = e => {
-        e.preventDefault();
-        auth.createUserWithEmailAndPassword(
-            emailRef.current.value,
-            passwordRef.current.value
-        ).then(user => {
-            console.log(user)
-        }).catch( err => {
-            console.log(err)
-        })
-    }
+  const emailRef = useRef(null);
+  const passwordRef = useRef(null);
+  const register = (e) => {
+    e.preventDefault();
+    auth
+      .createUserWithEmailAndPassword(
+        emailRef.current.value,
+        passwordRef.current.value
+      )
+      .then((user) => {
+        console.log(user);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
   return (
     <div className="login">
       <form action="">
         <h1>Welcome back feller!</h1>
         <img
-          src="../assets/GoatRoperslogo.png"
+          src="https://cdn.discordapp.com/attachments/1006272241434112030/1007019609100124270/GoatRoperslogo.png"
           alt="sorry there"
-          style={{ width: "45px" }}
+          style={{ width: "500px" }}
         />
         <label>Email:</label>
         <input ref={emailRef} type="email" />
@@ -33,7 +36,7 @@ const Login = () => {
         <h6>
           Not registered for the Rodeo yet?
           <span onClick={register} className="loginLink">
-              Register
+            Register Now!
           </span>
         </h6>
       </form>
