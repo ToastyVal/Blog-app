@@ -21,13 +21,16 @@ const NavBar = () => {
   window.addEventListener("scroll", changeColor);
 
   return (
-    <div className={color ? "header header-bg" : "header"}>
+    <div id="navbar" className={color ? "header-bg" : "header"}>
       <Link to="/">
-        <h1>Goat Ropers &#174;</h1>
+        <h1 className="header">Goat Ropers &#174;</h1>
       </Link>
-      <ul className={click ? "nav-menu active" : "nav-menu"}>
+      <ul className="nav-menu">
         <li>
-          <Link to="/">Blog</Link>
+          <Link to='/'>Home</Link>
+        </li>
+        <li>
+          <Link to="/blog">Blog</Link>
         </li>
         <li>
           <Link to='/about'>About Us</Link>

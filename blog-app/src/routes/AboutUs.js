@@ -8,8 +8,8 @@ function About () {
     return (
         <div>
             <NavBar />
-            <AboutUs />
-            <Footer />
+            {/* <AboutUs />
+            <Footer /> */}
         </div>
         
     )
