@@ -9,23 +9,12 @@ const BlogPost = () => (
     {/* this was made to have blog post to work around */}
     <p className="blogPost">
       {" "}
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae blanditiis
-      quae, enim dicta soluta optio inventore sed ratione incidunt pariatur modi
-      facere eaque placeat molestiae repudiandae tenetur dolore saepe
-      reprehenderit? Nam iusto dolore sequi saepe et veniam. Voluptatem
-      consequatur voluptas tenetur cupiditate a ipsum aliquam dignissimos,
-      incidunt repellat earum optio ut aperiam impedit reiciendis pariatur
-      similique rerum aspernatur. Labore, eaque. Temporibus obcaecati fugit vero
-      libero perferendis incidunt voluptatum similique soluta eligendi iure illo
-      quod debitis accusamus, ipsum ullam doloribus vitae totam eos et eius
-      nihil quam, adipisci tempora? Veniam, velit? Neque at ut nostrum fugit
-      recusandae hic porro sunt similique praesentium iure eos, officia
-      voluptatibus sapiente libero, quasi voluptatum reiciendis explicabo
-      eligendi quibusdam quia alias esse dolor magnam. Rerum, voluptatum? Sit
-      animi aspernatur quisquam, tenetur non magni nesciunt sed accusamus dolore
-      neque quas repellendus doloribus placeat optio adipisci ad itaque eveniet,
-      reiciendis explicabo aperiam accusantium. Distinctio tempora natus unde
-      maxime!
+     My name is Cindy Tacklebox and all my life I've wanted to marry me a cowboy! It all started 12 years ago when I was in the nineth grade. My obsession with cowboys didn't start until 
+     I noticed how fabulously masculine that fine leather hat fit a top their strong cranium. Now don't you get it wrong or nothin'. My daddy always taught me to find me a man based on his
+     personality and his o-filiation with the hard work of an American man, oh boy I'm sweatin' just thinkin' about it now! Havin' said all that now, after years of searchin' and searchin' 
+     for my perfect Goat Roper, I found my self stumblin' on in here. I have never, and I mean never, seen a website where a gal like me, Ms.Tacklebox, can so easily scroll around a peruse 
+     men like the product they are. I find myself constantly on this site talkin to gals and pals alike! Get yourself on this site ladies and find you a cowboy! 
+     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> #YEEEHHAAAWWWW!</a>
     </p>
     <LikeButton />
     {/* <div>
