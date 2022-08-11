@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 // import fakeData from "../assets/fakeData.json";
 // you must install axios
 // import axios from "axios";
+import './PostList.css';
 
 function PostList() {
   //this is the api post
