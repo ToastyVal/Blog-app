@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { auth } from "../../firebase";
+import Logo from "../../assets/goatRoperLogo_fixed.png";
 import "./login.css";
 
 const Login = () => {
@@ -23,11 +24,7 @@ const Login = () => {
     <div className="login">
       <form action="">
         <h1>Welcome back feller!</h1>
-        <img
-          src="https://cdn.discordapp.com/attachments/994279037511925887/1007023879157452980/My_project-1.png"
-          alt="sorry there"
-          style={{ width: "500px" }}
-        />
+        <img src={Logo} alt="sorry there" style={{ width: "300px" }} />
         <label>Email:</label>
         <input ref={emailRef} type="email" />
         <label>Password:</label>
