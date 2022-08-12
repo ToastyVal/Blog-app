@@ -6,23 +6,23 @@
   }
 
   #brandon {
-      background: url("../assets/pic.jpg") center top no-repeat; 
+      background: url("../../assets/pic.jpg") center top no-repeat; 
       background-size: 300px;
   }
   #hunter {
-      background: url("../assets/YoungHunter.jpg") center bottom no-repeat; 
+      background: url("../../assets/YoungHunter.jpg") center bottom no-repeat; 
       background-size: 300px;
   }
   #jude {
-      background: url("../assets/YoungJude.jpg") center top no-repeat; 
+      background: url("../../assets/YoungJude.jpg") center top no-repeat; 
       background-size: 300px;
   }
   #malik {
-      background: url("../assets/YoungMalik.jpg") center center no-repeat; 
+      background: url("../../assets/YoungMalik.jpg") center center no-repeat; 
       background-size: 300px;
   }
   #dominico {
-      background: url("../assets/YoungDominico.png") center center no-repeat; 
+      background: url("../../assets/YoungDominico.png") center center no-repeat; 
       background-size: 300px;
 
   }

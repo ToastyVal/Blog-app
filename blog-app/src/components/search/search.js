@@ -19,7 +19,7 @@ class Search extends React.Component {
     return (
       <>
         <form id="searchBar">
-          <label for="searchCowFolk">Search</label>
+          <label for="searchCowFolk">Search: </label>
           <input
             type="text"
             placeholder="Search cowfolk"
