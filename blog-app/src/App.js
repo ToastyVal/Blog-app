@@ -1,11 +1,12 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import Blog from './routes/Blog';
 import About from './routes/AboutUs';
 import Content from './routes/ContentPolicy'
 import { Routes, Route } from 'react-router-dom';
 import Landing from './routes/Landing';
 import LoginPage from './routes/Login';
+
 
 
 
