@@ -1,11 +1,4 @@
 
-* {
-    padding: 5px;
-    margin: 5px;
-    box-sizing: border-box;
-    color: #000;
-    text-shadow: 2px 2px rgba(255, 0, 0, 0.58);
-  }
   
   .navbar>header {
    list-style: none;

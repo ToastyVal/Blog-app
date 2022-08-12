@@ -1,16 +1,35 @@
 import React from "react";
-import yeehaw from '../assets/yeehaw.wav'
+import { renderMatches } from "react-router-dom";
+import yeehaw from "../assets/yeehaw.wav";
+import "./search.css";
 
-const sound =() =>{
-    new Audio(yeehaw).play
+class Search extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      button: 0,
+    };
+  }
+  button() {
+    new Audio(yeehaw).play();
+  }
+
+  render() {
+    return (
+      <>
+        <form id="searchBar">
+          <label for="searchCowFolk">Search</label>
+          <input
+            type="text"
+            placeholder="Search cowfolk"
+            id="searchCowFolk"
+          ></input>
+          <button onClick={this.button.bind(this)}>Yeehaw!</button>
+        </form>
+      </>
+    );
+  }
 }
-const search =() =>(
-    <>
-    <form>
-        <label for='searchCowFolk'>Search</label>
-        <input type='text' placeholder="Search cowfolk" id='searchCowFolk'></input>
-        <button onClick={sound}>Yeehaw!</button>
-    </form>
-    </>
-)
-export default search;
+
+export default Search;
