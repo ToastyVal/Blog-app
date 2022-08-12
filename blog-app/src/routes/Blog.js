@@ -1,8 +1,8 @@
 import React from "react";
-import Footer from "../components/footer";
-import BlogPost from "../components/blogPost";
-import NavBar from "../components/navBar";
-import Comments from "../components/comments";
+import Footer from "../components/footer/footer";
+import BlogPost from "../components/blogPost/blogPost";
+import NavBar from "../components/navBar/navBar";
+import Comments from "../components/comments/comments";
 import PostList from "../API/PostList";
 import "../components/styles.css";
 import Search from "../components/search";

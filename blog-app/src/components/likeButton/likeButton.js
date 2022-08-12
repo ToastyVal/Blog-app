@@ -2,8 +2,8 @@ import React from "react";
 //use npm add use-sound in the terminal
 // import useSound from 'use-useSound';
 //import sounds from assets
-import yeehaw from "../assets/yeehaw.wav";
-import nope from "../assets/nope.ogg";
+import yeehaw from "../../assets/yeehaw.wav";
+import nope from "../../assets/nope.ogg";
 import "./LikeButton.css";
 
 // extends Component which means it has to have a render method. To access props use "this.property"
