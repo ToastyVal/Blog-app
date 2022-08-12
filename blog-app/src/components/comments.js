@@ -1,10 +1,8 @@
-// <<<<<<< HEAD
 import React, { Component, useState } from "react";
 import Axios from "axios";
-// =======
+
 import React, { useState } from "react";
 // import Axios from "axios";
-// >>>>>>> e19c247d1ca9bda81281287fefdf95cfac9b6393
 
 class AppComments extends Component {
   //must create a state
