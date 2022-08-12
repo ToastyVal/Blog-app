@@ -5,6 +5,7 @@ import NavBar from "../components/navBar/navBar";
 import Comments from "../components/comments/comments";
 import PostList from "../API/PostList";
 import "../components/styles.css";
+import Search from "../components/search/search";
 
 // import './styles.css'
 
@@ -14,6 +15,7 @@ function Blogs() {
       <header>
         <NavBar />
       </header>
+      <Search />
       <article>
         <BlogPost />
       </article>

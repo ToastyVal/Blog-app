@@ -22,9 +22,4 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
 
-
 export { auth, db };
-
-//following firbase video
-//const databaseRef = firebase.database().ref();
-//export const notesRef = databaseRef.child("notes");

@@ -1,32 +1,34 @@
 import React, { Component } from "react";
 //import Axios from "axios";
 
+// import React, { useState } from "react";
+// import Axios from "axios";
 
 class AppComments extends Component {
   //must create a state
-  constructor() {
-    super();
-    this.state = { user: {} };
-    this.onSubmit = this.handleSubmit.bind(this);
-  }
-  handleSubmit(e) {
-    e.preventDefault();
-    var self = this;
-    // On submit of the form, send a POST request with the data to the server.
-    fetch("http://localhost:3000", {
-      method: "POST",
-      body: {
-        UserName: self.refs.UserName,
-        CommentInfo: self.refs.CommentInfo,
-      },
-    })
-      .then(function (response) {
-        return response.json();
-      })
-      .then(function (body) {
-        console.log(body);
-      });
-  }
+  // constructor() {
+  //   super();
+  //   this.state = { user: {} };
+  //   this.onSubmit = this.handleSubmit.bind(this);
+  // }
+  // handleSubmit(e) {
+  //   e.preventDefault();
+  //   var self = this;
+  //   // On submit of the form, send a POST request with the data to the server.
+  //   fetch("http://localhost:3000", {
+  //     method: "POST",
+  //     body: {
+  //       UserName: self.refs.UserName,
+  //       CommentInfo: self.refs.CommentInfo,
+  //     },
+  //   })
+  //     .then(function (response) {
+  //       return response.json();
+  //     })
+  //     .then(function (body) {
+  //       console.log(body);
+  //     });
+  // }
 
   //   const [userName, setUserName] = useState("");
   //   const [comment, setComment] = useState({
