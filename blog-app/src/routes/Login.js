@@ -1,7 +1,7 @@
 import React from "react";
-import Footer from "../components/footer";
-import Login from "../components/login";
-import NavBar from "../components/navBar";
+import Footer from "../components/footer/footer";
+import Login from "../components/login/login";
+import NavBar from "../components/navBar/navBar";
 
 function LoginPage() {
     return (
@@ -13,4 +13,4 @@ function LoginPage() {
     )
 }
 
-export default LoginPage
+export default LoginPage;

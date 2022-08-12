@@ -1,5 +1,5 @@
 import React from "react";
-import LikeButton from "./likeButton";
+import LikeButton from "../likeButton/likeButton";
 import "./blogPost.css";
 
 const BlogPost = () => (
