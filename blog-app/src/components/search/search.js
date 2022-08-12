@@ -1,6 +1,6 @@
 import React from "react";
 import { renderMatches } from "react-router-dom";
-import yeehaw from "../assets/yeehaw.wav";
+import yeehaw from "../../assets/yeehaw.wav";
 import "./search.css";
 
 class Search extends React.Component {
