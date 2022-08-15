@@ -1,8 +1,8 @@
 import React from "react";
 
-import AboutUs from "../components/aboutUs";
-import Footer from "../components/footer";
-import NavBar from "../components/navBar";
+import AboutUs from '../components/about/aboutUs';
+import NavBar from "../components/navBar/navBar";
+import Footer from "../components/footer/footer";
 
 function About() {
   return (

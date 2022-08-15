@@ -10,7 +10,7 @@ const Footer = () => (
         <ul>
             <li>Contact us</li>
             <li>Some Ranch Near You!</li>
-            <li>(555) 555-5555 (hint don't call us!)</li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">(602) 996-1140 (hint don't call us!)</a></li>
             <li>totalyrealemail@gmail.com</li>
         </ul>
         <ul>
