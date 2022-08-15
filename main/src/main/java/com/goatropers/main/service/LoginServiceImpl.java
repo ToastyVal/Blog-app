@@ -10,7 +10,7 @@ import com.goatropers.main.repository.LoginRepository;
 public class LoginServiceImpl implements LoginService {
 
     @Autowired
-    public LoginRepository loginRepository;
+    private LoginRepository loginRepository;
 
     @Override
     public Login saveLogin(Login login) {
