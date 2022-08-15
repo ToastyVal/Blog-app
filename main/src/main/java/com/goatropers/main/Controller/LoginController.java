@@ -14,8 +14,12 @@ import com.goatropers.main.service.LoginService;
 @RequestMapping("/blog")
 @CrossOrigin
 public class LoginController {
+
     @Autowired
-    public LoginService loginService;
+    private LoginService loginService;
+
+    @Autowired
+    LoginService dao;
 
     @PostMapping("/addLogin")
     public String add(@RequestBody Login login) {
