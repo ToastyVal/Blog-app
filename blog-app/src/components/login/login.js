@@ -26,9 +26,9 @@ const Login = () => {
         <h1>Welcome back feller!</h1>
         <img src={Logo} alt="sorry there" style={{ width: "300px" }} />
         <label>Email:</label>
-        <input ref={emailRef} type="email" />
+        <input ref={emailRef} placeholder='Enter Email' type="email" />
         <label>Password:</label>
-        <input ref={passwordRef} type="password" />
+        <input ref={passwordRef} placeholder='Enter Password' type="password" />
         <button>Yeehaw</button>
         <h6>
           Not registered for the Rodeo yet?
