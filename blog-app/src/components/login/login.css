@@ -4,16 +4,28 @@
     margin-right: auto;
 }
 
-.login>form {
-    display: grid;
+.goat-logo {
+    padding-bottom: 20px;
+    width: 300px;
+}
+
+.form {
+    display: flex;
     flex-direction: column;
+    font-size: 2.0em;
+    padding-bottom: 30px;
 }
 
 .login>form>input {
     margin-bottom: 5px;
+    font-size: 0.8em;
 }
 
 .loginLink:hover {
     text-decoration: wavy;
     color: chocolate;
+}
+
+.button {
+    font-size: 0.6em;
 }
