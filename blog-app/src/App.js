@@ -7,6 +7,7 @@ import { Routes, Route } from 'react-router-dom';
 import Landing from './routes/Landing';
 import LoginPage from './routes/Login';
 import Registration from './routes/Registration';
+import AdminLogin from './routes/AdminLogin';
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/contenPolicy' elemment={<Content />} />
         <Route path='/login' element={<LoginPage />} />
         <Route path='/register' element={<Registration />} />
+        <Route path='/admin' element={<AdminLogin />} />
       </Routes>
     </>
 

@@ -28,6 +28,9 @@ const NavBar = () => {
         <li>
           <Link to='/register'>Registration</Link>
         </li>
+        <li>
+          <Link to='/admin'>Admin</Link>
+        </li>
       </ul>
     </div>
   );
