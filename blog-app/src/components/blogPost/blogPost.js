@@ -14,7 +14,7 @@ const BlogPost = () => (
      personality and his o-filiation with the hard work of an American man, oh boy I'm sweatin' just thinkin' about it now! Havin' said all that now, after years of searchin' and searchin' 
      for my perfect Goat Roper, I found my self stumblin' on in here. I have never, and I mean never, seen a website where a gal like me, Ms.Tacklebox, can so easily scroll around a peruse 
      men like the product they are. I find myself constantly on this site talkin to gals and pals alike! Get yourself on this site ladies and find you a cowboy! 
-     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> #YEEEHHAAAWWWW!</a>
+     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target= "_blank"> #YEEEHHAAAWWWW!</a>
     </p>
     <LikeButton />
     {/* <div>

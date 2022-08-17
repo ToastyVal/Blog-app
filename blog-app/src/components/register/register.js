@@ -23,7 +23,8 @@ function Register() {
   return (
     <div>
       <h1>Create an Account down yonder and join us!</h1>
-      <img src={Logo} alt="sorry there" style={{ width: "300px" }} />
+      <img src={Logo} alt="sorry there" style={{ width: "300px" }} id="logoPic"/>
+
       <form>
         <label>Enter Email:</label>
         <br />

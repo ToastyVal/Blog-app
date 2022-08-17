@@ -1,0 +1,24 @@
+import { GoogleAuthProvider, signInWithRedirect } from 'firebase/auth'
+import React from 'react'
+import GoogleButton from 'react-google-button'
+
+import {auth} from '../../../firebase'
+
+const style ={
+    wrapper: `flex justify-wrapper`
+}
+
+const googleSignIn = () => {
+    const provider = new GoogleAuthProvider()
+    signInWithRedirect(auth, provider)
+}
+
+function SignIn() {
+  return (
+    <div className={StyleSheet.wrapper}>
+        <GoogleButton onClick={googleSignIn} />
+    </div>
+  )
+}
+
+export default SignIn

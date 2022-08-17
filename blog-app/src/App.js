@@ -7,8 +7,7 @@ import { Routes, Route } from 'react-router-dom';
 import Landing from './routes/Landing';
 import LoginPage from './routes/Login';
 import Registration from './routes/Registration';
-
-
+import ChatApp from './components/chatApp/chatApp';
 
 
 function App() {
@@ -21,10 +20,9 @@ function App() {
         <Route path='/contenPolicy' elemment={<Content />} />
         <Route path='/login' element={<LoginPage />} />
         <Route path='/register' element={<Registration />} />
+        <Route path='/chatApp' element={<ChatApp /> } />
       </Routes>
-    </>
-
-  );
+    </> 
+     );
 }
-
 export default App;

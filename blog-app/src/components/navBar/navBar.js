@@ -28,6 +28,9 @@ const NavBar = () => {
         <li>
           <Link to='/register'>Registration</Link>
         </li>
+        <li>
+          <Link to="/chatApp">The Watering Hole</Link>
+        </li>
       </ul>
     </div>
   );
