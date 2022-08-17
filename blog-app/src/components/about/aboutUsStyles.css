@@ -21,11 +21,6 @@
       background: url("../../assets/YoungMalik.jpg") center center no-repeat; 
       background-size: 300px;
   }
-  #dominico {
-      background: url("../../assets/YoungDominico.png") center center no-repeat; 
-      background-size: 300px;
-
-  }
   
   h1{
     font-size: 2.5rem;
@@ -46,6 +41,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding-bottom: 160px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-pack: center;

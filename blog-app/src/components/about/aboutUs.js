@@ -70,24 +70,6 @@ function AboutUs() {
             </div>
           </div>
         </div>
-        { <div class="col" ontouchstart="this.classList.toggle('hover');">
-          <div class="container">
-            <div
-              class="front" id="dominico"
-            >
-              <div class="inner">
-              </div>
-            </div>
-            <div class="back">
-              <div class="inner">
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Alias cum repellat velit quae suscipit c.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>}
       </div>
     </div>
   );
