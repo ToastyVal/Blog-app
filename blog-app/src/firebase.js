@@ -11,7 +11,7 @@ import "firebase/database";
 const firebaseConfig = {
   apiKey: "AIzaSyB7LxQXi1Zu-4mhyqeALDEdANPNiIbwivc",
   authDomain: "apprenticenowblog.firebaseapp.com",
-  databaseURL: "https://apprenticenowblog-default-rtdb.firebaseio.com",
+  databaseURL: "https://apprenticenowblog-default-rtdb.firebaseio.com/",
   projectId: "apprenticenowblog",
   storageBucket: "apprenticenowblog.appspot.com",
   messagingSenderId: "776744699243",

@@ -2,17 +2,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import './NavBarStyles.css';
-// import Logo from "../../assets/goatRoperLogo_fixed.png";
+import './WateringHoleNav.css';
 
 
-const NavBar = () => {
+const ChatAppNavbar = () => {
 
   return (
     <div id="navbar" className='header'>
       <Link to="/">
         <h1 className="header">Goat Ropers &#174;</h1>
-        {/* <img src={Logo} alt="sorry there" style={{ width: "200px" }} /> */}
       </Link>
       <ul className="nav-menu">
         <li>
@@ -42,5 +40,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
-
+export default ChatAppNavbar;

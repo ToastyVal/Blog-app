@@ -1,9 +1,9 @@
 import React from "react";
-import './footerStyles.css';
+import './ChatAppFooter.css';
 
 
 // the footer function
-const Footer = () => (
+const ChatAppFooter = () => (
     <>
         {/* fake contact info and trademark */}
         <h2>Goat Ropers&#174;</h2>
@@ -26,4 +26,4 @@ const Footer = () => (
         </ul>
     </>
 )
-export default Footer;
+export default ChatAppFooter;
