@@ -75,6 +75,26 @@ function AboutUs() {
           </div>
         }
       </div>
+      <div>
+        {" "}
+        <ul>
+          <li>Brandon Lamont Baker- Master of CSS, built the clientside</li>
+          <li>Malik Quinn Depasse - Master of Routing, built the clientside</li>
+          <li>
+            Hunter Scott Harris - Master of back-end, built the java backend
+          </li>
+          <li>Jude Michael Slovik - Master of Chat, made an instant chat</li>
+          <li>Ryan Patrick Griffith - said some helpful things</li>
+        </ul>
+        We all worked on every part of the project with few things made by just
+        one person. Here are our branches with all of our changes{" "}
+        <a href="https://github.com/ToastyVal/Blog-app/commits/test-branch(do-not-push-to-here-yet)">
+          <span> Click Me XD</span>
+        </a>
+        On behalf of the excellent team rad Hufflepuff we thank you for teaching
+        us and all of the dad jokes. We learned a great deal and have grown as
+        developers. Never forget to use a VPN!
+      </div>
     </div>
   );
 }

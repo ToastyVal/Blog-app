@@ -210,3 +210,10 @@
       margin: 0 0 2rem 0;
     }
   }
+
+a span{
+  text-decoration: dashed;
+  color: aqua;
+  font-stretch: expanded;
+  padding: 0px 8px 0px 5px;
+}  

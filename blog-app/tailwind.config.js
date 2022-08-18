@@ -2,7 +2,10 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      cursive: ["Ewert", "system-ui"],
+      extend: {},
+    },
+    plugins: [],
   },
-  plugins: [],
-}
+};
