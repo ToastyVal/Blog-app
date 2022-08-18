@@ -4,14 +4,14 @@ import './footerStyles.css';
 
 // the footer function
 const Footer = () => (
-    <>
+    <div className="footer">
         {/* fake contact info and trademark */}
         <h2>Goat Ropers&#174;</h2>
         <ul>
             <li>Contact us</li>
             <li>Some Ranch Near You!</li>
-            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target= "_blank">(602) 996-1140 (hint don't call us!)</a></li>
-            <li>totalyrealemail@gmail.com</li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">(602) 996-1140 (hint don't call us!)</a></li>
+            <li>totallyrealemail@gmail.com</li>
         </ul>
         <ul>
             {/* these are the links to things websites need */}
@@ -23,6 +23,6 @@ const Footer = () => (
                 <a href='../routes/ContentPolicy' >Content Policy</a>
             </li> */}
         </ul>
-    </>
+    </div>
 )
 export default Footer;

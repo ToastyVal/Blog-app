@@ -5,13 +5,13 @@ import GoogleButton from 'react-google-button'
 import {auth} from '../../../firebase'
 
 const style ={
-    wrapper: `flex justify-wrapper`
-}
+    wrapper: "flex justify-wrapper"
+};
 
 const googleSignIn = () => {
     const provider = new GoogleAuthProvider()
     signInWithRedirect(auth, provider)
-}
+};
 
 function SignIn() {
   return (

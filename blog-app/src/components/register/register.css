@@ -1,0 +1,42 @@
+.register {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    padding-bottom: 20px;
+    margin-right: 20px;
+    width: 250px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+    font-size: 1.7em;
+}
+
+.login>form>input {
+    margin-bottom: 5px;
+    font-size: 0.8em;
+}
+
+.loginLink:hover {
+    text-decoration: wavy;
+    color: chocolate;
+}
+
+.button {
+    font-size: 0.6em;
+}
+
+input {
+    height: 50px;
+    border-radius: 5px;
+}
+
+
+.submit {
+    height: 30px;
+}

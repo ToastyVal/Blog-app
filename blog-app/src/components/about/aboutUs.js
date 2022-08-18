@@ -60,20 +60,6 @@ function AboutUs() {
             </div>
           </div>
         </div>
-        {
-          <div class="col" ontouchstart="this.classList.toggle('hover');">
-            <div class="container">
-              <div class="front" id="dominico">
-                <div class="inner"></div>
-              </div>
-              <div class="back">
-                <div class="inner">
-                  <p>Full stack dev with the heart of a lion!</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        }
       </div>
     </div>
   );

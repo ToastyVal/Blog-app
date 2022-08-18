@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import {auth} from '../../firebase'
 import Logo from "../../assets/goatRoperLogo_fixed.png";
+import "./register.css";
 
 function Register() {
   const [userName, setUserName] = useState("");
@@ -22,11 +23,11 @@ function Register() {
   };
 
   return (
-    <div>
+    <div className="register">
       <h1>Create an Account down yonder and join us!</h1>
-      <img src={Logo} alt="sorry there" style={{ width: "300px" }} id="logoPic"/>
+      <img classname="logo" src={Logo} alt="sorry there"/>
 
-      <form>
+      <form className="register-form">
         <label>Enter Email:</label>
         <br />
         <input
