@@ -1,7 +1,10 @@
 {
+<<<<<<< Updated upstream
   "functions": {
     "source": "functions"
   },
+=======
+>>>>>>> Stashed changes
   "database": {
     "rules": "database.rules.json"
   },
@@ -9,21 +12,71 @@
     "rules": "firestore.rules",
     "indexes": "firestore.indexes.json"
   },
+<<<<<<< Updated upstream
+=======
+  "functions": {
+    "ignore": [
+      "node_modules",
+      ".git",
+      "firebase-debug.log",
+      "firebase-debug.*.log"
+    ],
+    "predeploy": [
+      "npm --prefix \"$RESOURCE_DIR\" run lint"
+    ],
+    "source": "functions"
+  },
+>>>>>>> Stashed changes
   "hosting": {
     "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+<<<<<<< Updated upstream
     ],
     "rewrites": [
       {
         "source": "**",
         "destination": "/index.html"
       }
+=======
+>>>>>>> Stashed changes
     ]
   },
   "storage": {
     "rules": "storage.rules"
+<<<<<<< Updated upstream
+=======
+  },
+  "emulators": {
+    "auth": {
+      "port": 9099
+    },
+    "functions": {
+      "port": 5001
+    },
+    "firestore": {
+      "port": 8080
+    },
+    "database": {
+      "port": 9000
+    },
+    "hosting": {
+      "port": 5000
+    },
+    "pubsub": {
+      "port": 8085
+    },
+    "storage": {
+      "port": 9199
+    },
+    "ui": {
+      "enabled": true
+    }
+  },
+  "remoteconfig": {
+    "template": "remoteconfig.template.json"
+>>>>>>> Stashed changes
   }
 }
