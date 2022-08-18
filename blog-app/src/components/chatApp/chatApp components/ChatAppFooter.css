@@ -1,0 +1,27 @@
+footer {
+    background-color: #e59ded;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* these not working yet */
+    /* position: fixed; */
+    /* bottom: 0px; */
+    /* width: 90%; */
+  }
+  
+  footer h2 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 1.5em;
+    padding-top: 0.8em;
+    text-decoration: underline;
+    text-shadow: 2px 2px #F4C5BB;
+  
+  }
+  footer li{
+    list-style-type: none;
+  }
+  footer li::before{
+    content: '\1F920';
+    margin-right: 10px;
+  }

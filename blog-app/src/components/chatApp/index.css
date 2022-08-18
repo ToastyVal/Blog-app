@@ -3,4 +3,12 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Ewert&family=Shadows+Into+Light&display=swap');
-#chatUserName {text-shadow: none; font-family: 'Ewert', cursive;}
+#chatUserName {
+    text-shadow: none;
+     font-family: 'Ewert', cursive;
+    }
+
+.text-xs{
+    @apply 
+    font-family:"pacifico",cursive;
+}
