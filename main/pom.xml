@@ -17,21 +17,20 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-
 			<dependency>
 				 <groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-security</artifactId> 
-
-			<!-- <dependency>
+			</dependency> 
+			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-security</artifactId>
- d327e6f5d6b371e5c8406548dae5190ede5947bd
+
 			</dependency> 
 		<dependency>
 			<groupId>icu.lowcoder.spring.commons</groupId>
 			<artifactId>security-spring-boot-starter</artifactId>
 			<version>3.2.0</version>
-		</dependency>  -->
+		</dependency> 
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

@@ -2,7 +2,6 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "@firebase/firestore";
-import { FirebaseApp } from "firebase/app";
 import "firebase/database";
 
 // TODO: Add SDKs for Firebase products that you want to use
@@ -12,10 +11,11 @@ import "firebase/database";
 const firebaseConfig = {
   apiKey: "AIzaSyB7LxQXi1Zu-4mhyqeALDEdANPNiIbwivc",
   authDomain: "apprenticenowblog.firebaseapp.com",
+  databaseURL: "https://apprenticenowblog-default-rtdb.firebaseio.com",
   projectId: "apprenticenowblog",
   storageBucket: "apprenticenowblog.appspot.com",
   messagingSenderId: "776744699243",
-  appId: "1:776744699243:web:d33a3dcbd5979b839b382e",
+  appId: "1:776744699243:web:d33a3dcbd5979b839b382e"
 };
 
 // Initialize Firebase

@@ -29,7 +29,11 @@ const NavBar = () => {
           <Link to='/register'>Registration</Link>
         </li>
         <li>
+
           <Link to="/chatApp">The Watering Hole</Link>
+
+          <Link to='/admin'>Admin</Link>
+
         </li>
       </ul>
     </div>
