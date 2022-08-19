@@ -1,9 +1,10 @@
 import React from "react";
+import './admin.css'
 
 const Admin = () => {
   return (
     <div>
-      <form action="">
+      <form action="" className="admin-form">
         <h1>Welcome back GoatBoss!</h1>
         {/* <img src={Logo} alt="sorry there" style={{ width: "300px" }} /> */}
         <label>Admin Username:</label>
