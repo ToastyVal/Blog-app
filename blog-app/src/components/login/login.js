@@ -25,7 +25,7 @@ const Login = () => {
           </span>
         </h6>
       </form>
-      <img className="QRLogin" src={QR} />
+      <img className="QRLogin" src={QR} alt="roll" />
     </div>
   );
 };

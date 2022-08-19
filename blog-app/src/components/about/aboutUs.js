@@ -68,8 +68,7 @@ function AboutUs() {
             <div class="back">
               <div class="inner">
                 <p>
-                  I carry in Val and is constantly called a cheater due to my
-                  crazy skills!
+                  Said helpful things... sometimes!
                 </p>
               </div>
             </div>
