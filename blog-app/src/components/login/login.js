@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../../assets/goatRoperLogo_fixed.png";
 import "./login.css";
+import QR from "../../assets/QRCode.png"
 
 const Login = () => {
  
@@ -24,6 +25,7 @@ const Login = () => {
           </span>
         </h6>
       </form>
+      <img className="QRLogin" src={QR} />
     </div>
   );
 };
