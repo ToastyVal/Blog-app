@@ -1,13 +1,19 @@
 .blogTitle{
     font-size: 3em;
-    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Shadows Into Light';
     text-shadow: 2px 2px #F4C5BB;
 }
 .blogPost{
-    background-color: rgba(43, 45, 45, 0.132);
+    background-color: rgba(255, 255, 255, 0.3);
     margin: 20px 5% 20px 5%;
-    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Shadows Into Light';
     font-style: oblique;
-    font-size: 1.2em;
+    font-size: 1.5em;
+    letter-spacing: 1px;
     font-size: bold;
+    border-radius: 15px;
+}
+
+.rick:hover {
+    color: #800000;
 }

@@ -6,7 +6,7 @@ import Footer from "../components/footer/footer";
 function Landing() {
   return (
     <div>
-      <NavBar />
+      <NavBar title="Welcome to Goat Ropers&#174;"/>
       <LandingPage />
       <Footer />
     </div>

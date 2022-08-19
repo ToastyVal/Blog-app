@@ -3,7 +3,7 @@ import LikeButton from "../likeButton/likeButton";
 import "./blogPost.css";
 
 const BlogPost = () => (
-  <>
+  <div className="blogpost">
     <h2 className="blogTitle">I Reckon!</h2>
     <br />
     {/* this was made to have blog post to work around */}
@@ -14,14 +14,14 @@ const BlogPost = () => (
      personality and his o-filiation with the hard work of an American man, oh boy I'm sweatin' just thinkin' about it now! Havin' said all that now, after years of searchin' and searchin' 
      for my perfect Goat Roper, I found my self stumblin' on in here. I have never, and I mean never, seen a website where a gal like me, Ms.Tacklebox, can so easily scroll around a peruse 
      men like the product they are. I find myself constantly on this site talkin to gals and pals alike! Get yourself on this site ladies and find you a cowboy! 
-     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target= "_blank"> #YEEEHHAAAWWWW!</a>
+     <a className="rick" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target= "_blank noreferrer"> #YEEEHHAAAWWWW!</a>
     </p>
     <LikeButton />
     {/* <div>
             <button onClick={Nope}>What in tarnation!&#x1f44e; {disLikeCount}</button>
             <button onClick={YeeHaw}>Purdy! &#128077; {likeCount}</button>
         </div> */}
-  </>
+  </div>
 );
 
 export default BlogPost;

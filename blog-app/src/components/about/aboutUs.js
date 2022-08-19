@@ -60,6 +60,21 @@ function AboutUs() {
             </div>
           </div>
         </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" id="ryan">
+              <div class="inner"></div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>
+                  I carry in Val and is constantly called a cheater due to my
+                  crazy skills!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div>
         {" "}

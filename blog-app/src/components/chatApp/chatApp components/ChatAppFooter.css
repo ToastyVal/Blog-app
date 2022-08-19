@@ -1,5 +1,6 @@
 footer {
-    background-color: #e59ded;
+    /* background-color: #43210a; */
+    background-color: rgba(117, 53, 34, 0.38);
     display: flex;
     flex-direction: row;
     justify-content: space-around;

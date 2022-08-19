@@ -6,7 +6,7 @@ const Login = () => {
  
   return (
     <div className="login">
-      <h1>Welcome back feller!</h1>
+      <h1 className="login-h1">Welcome back feller!</h1>
       <img className="goat-logo" src={Logo} alt="sorry there"/>
       <form action="" className="form">
         {/* <h1>Welcome back feller!</h1> */}
