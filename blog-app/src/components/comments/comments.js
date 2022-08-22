@@ -30,15 +30,19 @@ function AppComments() {
   //working on this button to delete a comment that has been made
   // commentTEXT.map((comment.id))
 
-  const byeClick = (e) => {
+  var byeClick = (e) => {
     e.preventDefault();
-    fetch(`http://localhost:8080/blog/deleteComment/${comment.id}`, {
+
+    
+    fetch(`http://localhost:8080/blog/deleteComment/${id}`, {
       method: "DELETE",
       // headers: { "Content-Type": "application/json" },
       // body: JSON.stringify(commentText),
     }).then((e) => {
-      console.log(commentTEXT.Id)
+      console.log(id)
       console.log("comment deleted")
+
+      window.location.reload(true);
     })
   }
 
@@ -86,13 +90,26 @@ function AppComments() {
             <br />
             <h3>
               {/* these call the comment data by their key */}
-              {comment.comment} -{comment.name}   The post Id is {comment.id}
-              {console.log(comment.name)}
+              {comment.comment} -{comment.name}  
+              <br />
+               The post Id is {comment.id}
+               <br />
             </h3>
-            <button onClick={byeClick}>Get out of here!</button>
+           
             <br />
           </>
         ))}
+        <section>
+          <form>
+            <input
+             placeholder="Enter the post Id to delete" 
+             type="number"
+             value={id}
+             onChange={(e) => setId(e.target.value)}
+           />
+            <button onClick={byeClick}>Get out of here!</button>
+          </form>
+        </section>
       </div>
     </>
   );
