@@ -6,7 +6,7 @@ import Footer from '../components/footer/footer';
 const Registration = () => {
   return (
     <div>
-      <NavBar />
+      <NavBar/>
       <Register />
       <Footer />
     </div>

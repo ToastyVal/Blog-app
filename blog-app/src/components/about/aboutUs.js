@@ -60,8 +60,22 @@ function AboutUs() {
             </div>
           </div>
         </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" id="ryan">
+              <div class="inner"></div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>
+                  Said helpful things... sometimes!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div>
+      <div className="ourGoodBye">
         {" "}
         <ul>
           <li>Brandon Lamont Baker- Master of CSS, built the clientside</li>
@@ -72,12 +86,16 @@ function AboutUs() {
           <li>Jude Michael Slovik - Master of Chat, made an instant chat</li>
           <li>Ryan Patrick Griffith - said some helpful things</li>
         </ul>
+        <br />
         We all worked on every part of the project with few things made by just
-        one person. Here are our branches with all of our changes{" "}
+        one person.
+        <br />
+        Here are our branches with all of our changes{" "}
         <a href="https://github.com/ToastyVal/Blog-app/commits/test-branch(do-not-push-to-here-yet)">
-          <span> Click Me XD</span>
+          <span id="linkColor"> Click Me XD</span>
         </a>
-        On behalf of the excellent team rad Hufflepuff we thank you for teaching
+        <br />
+        On behalf of the excellent team red Hufflepuff we thank you for teaching
         us and all of the dad jokes. We learned a great deal and have grown as
         developers. Never forget to use a VPN!
       </div>

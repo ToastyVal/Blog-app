@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {auth} from '../../firebase'
+import { auth } from '../../firebase'
 import Logo from "../../assets/goatRoperLogo_fixed.png";
 import "./register.css";
 
@@ -19,13 +19,18 @@ function Register() {
       body: JSON.stringify(loginInfo),
     }).then((e) => {
       console.log("new login info was made");
+      //made an alert for when a login has been made
+      alert("Thank you for giving us your info!")
+      alert("We at goatropers value our herd and will not sell your info")
+      alert("... well unless it's for a great price then we will")
+      alert("but don't worry we wont tell you so you don't need to stress over it")
     });
   };
 
   return (
     <div className="register">
       <h1>Create an Account down yonder and join us!</h1>
-      <img classname="logo" src={Logo} alt="sorry there"/>
+      <img classname="logo" src={Logo} alt="sorry there" />
 
       <form className="register-form">
         <label>Enter Email:</label>
@@ -62,7 +67,7 @@ function Register() {
         <br />
         <input type="password" placeholder="Confirm Password" required />
         <br />
-        <button type="submit" onClick={handleClick}>
+        <button type="submit" onClick={handleClick} className="registerBtn">
           Complete Registration
         </button>
       </form>

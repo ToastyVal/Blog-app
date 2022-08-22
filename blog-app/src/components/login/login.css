@@ -5,9 +5,14 @@
   padding-bottom: 10px;
 }
 
+.login-h1 {
+  font-size: 50px;
+}
+
 .goat-logo {
   padding-bottom: 20px;
   width: 400px;
+  margin-left: 10%;
 }
 
 .form {
@@ -29,9 +34,17 @@
 
 .button {
   font-size: 0.8em;
-  border: 2px solid red;
+  border: 5px dashed red;
+  border-radius: 20px;
+  width: 170px;
+  position: relative;
+  left: 155px;
 }
 
 .register-link {
   font-size: 0.6em;
+}
+
+.QRLogin {
+  margin-left: 5%;
 }

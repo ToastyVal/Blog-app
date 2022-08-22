@@ -5,15 +5,15 @@ import { Link } from "react-router-dom";
 import './NavBarStyles.css';
 
 
-const NavBar = () => {
+const NavBar = (props) => {
 
   return (
     <div id="navbar" className='header'>
       <Link to="/">
-        <h1 className="header">Goat Ropers &#174;</h1>
+        <h1 className="nav--header">{props.title}</h1>
       </Link>
-      <ul className="nav-menu">
-        <li>
+      <ul className="nav--menu">
+        <li className="test">
           <Link to='/'>Home</Link>
         </li>
         <li>

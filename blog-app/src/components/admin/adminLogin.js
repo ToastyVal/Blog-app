@@ -16,6 +16,7 @@ const Admin = () => {
         <br />
         <button>Yeehaw</button>
       </form>
+      <br />
     </div>
   );
 };
