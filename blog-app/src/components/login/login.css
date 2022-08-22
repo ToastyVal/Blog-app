@@ -12,6 +12,7 @@
 .goat-logo {
   padding-bottom: 20px;
   width: 400px;
+  margin-left: 10%;
 }
 
 .form {
@@ -42,4 +43,8 @@
 
 .register-link {
   font-size: 0.6em;
+}
+
+.QRLogin {
+  margin-left: 5%;
 }
