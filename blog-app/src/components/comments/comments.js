@@ -4,12 +4,13 @@ function AppComments() {
   // these are the hooks for the data we want to steal from people
   const [name, setName] = useState("");
   const [comment, setComment] = useState("");
+  const [id, setId] = useState("");
   const [commentTEXT, setCommentTEXT] = useState([]);
 
   const handleClick = (e) => {
     // this will make the button not go to a new page
     e.preventDefault();
-    const commentText = { name, comment };
+    const commentText = { name, comment, id };
     //this is a test to see if our data is going into the console
     console.log(commentText);
 
@@ -22,8 +23,28 @@ function AppComments() {
     }).then((e) => {
       //this lets us know it worked
       console.log("new comment added");
+      //this will reload the page after a comment has been sent to SQL
+      window.location.reload(true);
     });
   };
+  //working on this button to delete a comment that has been made
+  // commentTEXT.map((comment.id))
+
+  var byeClick = (e) => {
+    e.preventDefault();
+
+    
+    fetch(`http://localhost:8080/blog/deleteComment/${id}`, {
+      method: "DELETE",
+      // headers: { "Content-Type": "application/json" },
+      // body: JSON.stringify(commentText),
+    }).then((e) => {
+      console.log(id)
+      console.log("comment deleted")
+
+      window.location.reload(true);
+    })
+  }
 
   //this will give use all the comments saved in sql
   useEffect(() => {
@@ -33,6 +54,9 @@ function AppComments() {
         setCommentTEXT(result);
       });
   }, []);
+  // console.log(commentTEXT.map(name))
+
+
 
   return (
     <>
@@ -66,11 +90,26 @@ function AppComments() {
             <br />
             <h3>
               {/* these call the comment data by their key */}
-              {comment.comment} -{comment.name}
+              {comment.comment} -{comment.name}  
+              <br />
+               The post Id is {comment.id}
+               <br />
             </h3>
+           
             <br />
           </>
         ))}
+        <section>
+          <form>
+            <input
+             placeholder="Enter the post Id to delete" 
+             type="number"
+             value={id}
+             onChange={(e) => setId(e.target.value)}
+           />
+            <button onClick={byeClick}>Get out of here!</button>
+          </form>
+        </section>
       </div>
     </>
   );
